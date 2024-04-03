@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/imgId"
+        android:src="@drawable/download"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_below="@+id/imgId"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All In One Downloader"
+        android:textColor="#00578A"
+        android:id="@+id/txtId"/>
+
+    <TextView
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copyright By ⓒAsaduzzaman Rana"
+        android:textColor="#00578A" />
+
+</RelativeLayout>
